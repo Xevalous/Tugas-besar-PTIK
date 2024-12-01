@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: "Funnel Sans", serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 245, 245);
+}
+
+#Navbar {
+    padding: 15px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: forestgreen;
+    color: azure;
+}
+
+#Navbar>.campus-logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#Navbar>.campus-logo .campus-name {
+    font-size: large;
+    font-weight: 800;
+}
+
+#Navbar>.campus-logo img {
+    height: 40px;
+}
+
+#Navbar>.nav-link {
+    display: flex;
+    gap: 20px;
+}
+
+#Navbar>.nav-link a {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    text-decoration: none;
+    color: azure;
+}
+
+#Navbar>.nav-link a svg,
+#Navbar>.nav-profile svg {
+    fill: azure;
+    position: relative;
+    top: 2px;
+}
+
+#Navbar>.nav-profile {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+#Navbar>.nav-profile .name {
+    font-weight: 600;
+}
+
+#Navbar>.nav-profile .user-status {
+    opacity: 80%;
+}
