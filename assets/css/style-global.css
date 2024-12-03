@@ -65,3 +65,34 @@ body {
 #Navbar>.nav-profile .user-status {
     opacity: 80%;
 }
+
+.container {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 .5rem 1.5rem rgba(17, 4, 4, .06);
+    padding: 20px;
+}
+
+.card .title {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.icon-box {
+    border-radius: 8px;
+}
+
+.icon-task {
+    background-color: rgba(30, 143, 255, 0.2);
+    padding: 8px;
+}
+
+.icon-task svg {
+    fill: dodgerblue;
+}
