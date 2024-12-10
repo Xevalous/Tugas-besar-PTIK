@@ -88,11 +88,11 @@ body {
     border-radius: 8px;
 }
 
-.icon-task {
+.icon-blue {
     background-color: rgba(30, 143, 255, 0.2);
     padding: 8px;
 }
 
-.icon-task svg {
+.icon-blue svg {
     fill: dodgerblue;
 }
