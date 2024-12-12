@@ -1,98 +1,139 @@
-@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 body {
-    font-family: "Funnel Sans", serif;
-    font-optical-sizing: auto;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(245, 245, 245);
+  font-family: "Funnel Sans", serif;
+  font-optical-sizing: auto;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(245, 245, 245);
 }
 
 #Navbar {
-    padding: 15px 35px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: forestgreen;
-    color: azure;
+  padding: 15px 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: forestgreen;
+  color: azure;
 }
 
-#Navbar>.campus-logo {
-    display: flex;
-    gap: 10px;
-    align-items: center;
+#Navbar > .campus-logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
-#Navbar>.campus-logo .campus-name {
-    font-size: large;
-    font-weight: 800;
+#Navbar > .campus-logo .campus-name {
+  font-size: large;
+  font-weight: 800;
 }
 
-#Navbar>.campus-logo img {
-    height: 40px;
+#Navbar > .campus-logo img {
+  height: 40px;
 }
 
-#Navbar>.nav-link {
-    display: flex;
-    gap: 20px;
+#Navbar > .nav-link {
+  display: flex;
+  gap: 20px;
 }
 
-#Navbar>.nav-link a {
-    display: flex;
-    gap: 4px;
-    align-items: center;
-    text-decoration: none;
-    color: azure;
+#Navbar > .nav-link a {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  text-decoration: none;
+  color: azure;
 }
 
-#Navbar>.nav-link a svg,
-#Navbar>.nav-profile svg {
-    fill: azure;
-    position: relative;
-    top: 2px;
+#Navbar > .nav-link a svg,
+#Navbar > .nav-profile svg {
+  fill: azure;
+  position: relative;
+  top: 2px;
 }
 
-#Navbar>.nav-profile {
-    display: flex;
-    gap: 4px;
-    align-items: center;
+#Navbar > .nav-profile {
+  display: flex;
+  gap: 4px;
+  align-items: center;
 }
 
-#Navbar>.nav-profile .name {
-    font-weight: 600;
+#Navbar > .nav-profile .name {
+  font-weight: 600;
 }
 
-#Navbar>.nav-profile .user-status {
-    opacity: 80%;
+#Navbar > .nav-profile .user-status {
+  opacity: 80%;
 }
 
 .container {
-    margin-left: 6%;
-    margin-right: 6%;
-    margin-top: 30px;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 30px;
 }
 
 .card {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 .5rem 1.5rem rgba(17, 4, 4, .06);
-    padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0.5rem 1.5rem rgba(17, 4, 4, 0.06);
+  padding: 20px;
 }
 
 .card .title {
-    font-size: x-large;
-    font-weight: 600;
+  font-size: x-large;
+  font-weight: 600;
 }
 
 .icon-box {
-    border-radius: 8px;
+  border-radius: 8px;
 }
 
-.icon-task {
-    background-color: rgba(30, 143, 255, 0.2);
-    padding: 8px;
+.icon-blue {
+  background-color: rgba(30, 143, 255, 0.2);
+  padding: 8px;
+  border-radius: 8px;
 }
 
-.icon-task svg {
-    fill: dodgerblue;
+.icon-blue svg {
+  fill: dodgerblue;
+}
+
+.icon-pink {
+  background-color: rgba(255, 161, 161, 0.2);
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.icon-pink svg {
+  fill: rgba(228, 148, 148, 0.719);
+}
+
+.icon-green {
+  background-color: rgba(24, 245, 35, 0.2);
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.icon-green svg {
+  fill: rgba(115, 221, 73, 0.719);
+}
+
+.icon-orange {
+  background-color: rgba(245, 189, 8, 0.2);
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.icon-orange svg {
+  fill: rgba(255, 238, 7, 0.966);
+}
+
+.icon-blue {
+  fill: rgba(30, 143, 255, 0.2);
+  padding: 8px;
+  range: auto;
+}
+
+.icon-blue svg {
+  fill: dodgerblue;
 }
