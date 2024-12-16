@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="/assets/css/style-global.css">
     <link rel="stylesheet" href="/assets/css/style-media-library.css">
 </head>
+
 <body>
     <nav id="Navbar">
         <div class="campus-logo">
@@ -55,48 +57,131 @@
                     d="M234-276q51-39 114-61.5T480-360q69 0 132 22.5T726-276q35-41 54.5-93T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 59 19.5 111t54.5 93Zm246-164q-59 0-99.5-40.5T340-580q0-59 40.5-99.5T480-720q59 0 99.5 40.5T620-580q0 59-40.5 99.5T480-440Zm0 360q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z" />
             </svg>
             <div>
-                <div class="name">Helmi Aryanto</div>
+                <div class="name">Nova Yunita Rizkyana</div>
                 <div class="user-status">Mahasiswa</div>
             </div>
         </div>
     </nav>
     <div class="container">
         <div class="header">
-            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M360-400h400L622-580l-92 120-62-80-108 140Zm-40 160q-33 0-56.5-23.5T240-320v-480q0-33 23.5-56.5T320-880h480q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H320ZM160-80q-33 0-56.5-23.5T80-160v-560h80v560h560v80H160Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                <path
+                    d="M360-400h400L622-580l-92 120-62-80-108 140Zm-40 160q-33 0-56.5-23.5T240-320v-480q0-33 23.5-56.5T320-880h480q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H320ZM160-80q-33 0-56.5-23.5T80-160v-560h80v560h560v80H160Z" />
+            </svg>
             <h2>Media Library</h2>
         </div>
         <div>
-            <div class="card">
-                <div>
-                    <div>
-                        <div>Personal</div>        <div>Penyimpanan Personal</div>
-                        <span>100 MB</span>
+            <div class="storage">
+                <div class="card">
+                    <div class="storage-usage">
+                        <div>
+                            <div class="personal">Personal</div>
+                            <span>100 MB</span>
+                        </div>
+                        <div>
+                            <div class="progress-bar" style="--value: 80%"></div>
+                            <span>79.32 MB digunakan</span>
+                        </div>
                     </div>
-                    <div>
-                        <span>79.32 MB digunakan</span>
+                    <div class="storage-usage">
+                        <div>
+                            <div class="perguruan">Perguruan Tinggi</div>
+                            <span>150 GB</span>
+                        </div>
+                        <div>
+                            <div class="progress-bar" style="--value: 79%"></div>
+                            <span>7.18 GB digunakan</span>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <div>
-                        <div>Perguruan Tinggi</div>
-                        <span>150 GB</span>
-                    </div>
-                    <div>
-                        <span>7.18 GB digunakan</span>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <div>Google Drive </div>
-                        <span>Hubungkan akun</span>
-                    </div>
-                    <div>
-                        <span></span>
+                    <div class="storage-usage">
+                        <div>
+                            <div class="google">Google Drive</div>
+                        </div>
+                        <div>
+                            <span>Hubungkan akun</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div></div>
+            <div class="card isi-storage">
+                <h2>Penyimpanan Personal</h2>
+                <div class="pencarian">
+                    <div>
+                        <form action="">
+                            <input type="text" name="cari" id="cari">
+                            <select name="urutan" id="urutan">
+                                <option value="">A - Z</option>
+                                <option value="">Z - A</option>
+                                <option value="">Terbaru</option>
+                                <option value="">Terlama</option>
+                                <option value="">Ukuran Terbesar</option>
+                                <option value="">Ukuran Terkecil</option>
+                            </select>
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                    width="24px" fill="#5f6368">
+                                    <path
+                                        d="M440-160q-17 0-28.5-11.5T400-200v-240L168-736q-15-20-4.5-42t36.5-22h560q26 0 36.5 22t-4.5 42L560-440v240q0 17-11.5 28.5T520-160h-80Z" />
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                    <button id="tambah">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                            fill="#ffffff">
+                            <path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z" />
+                        </svg>
+                        Tambah
+                    </button>
+                </div>
+                <div class="isi-file">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px"
+                        fill="#5f6368">
+                        <path
+                            d="M360-460h40v-80h40q17 0 28.5-11.5T480-580v-40q0-17-11.5-28.5T440-660h-80v200Zm40-120v-40h40v40h-40Zm120 120h80q17 0 28.5-11.5T640-500v-120q0-17-11.5-28.5T600-660h-80v200Zm40-40v-120h40v120h-40Zm120 40h40v-80h40v-40h-40v-40h40v-40h-80v200ZM320-240q-33 0-56.5-23.5T240-320v-480q0-33 23.5-56.5T320-880h480q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H320ZM160-80q-33 0-56.5-23.5T80-160v-560h80v560h560v80H160Z" />
+                    </svg>
+
+                    <div class="deskripsi">
+                        <span>Prosedural.PDF</span>
+                        <div>
+                            <span>127.55 KB</span>
+                            <div>2 Days Ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="isi-file">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px"
+                        fill="#5f6368">
+                        <path
+                            d="M360-460h40v-80h40q17 0 28.5-11.5T480-580v-40q0-17-11.5-28.5T440-660h-80v200Zm40-120v-40h40v40h-40Zm120 120h80q17 0 28.5-11.5T640-500v-120q0-17-11.5-28.5T600-660h-80v200Zm40-40v-120h40v120h-40Zm120 40h40v-80h40v-40h-40v-40h40v-40h-80v200ZM320-240q-33 0-56.5-23.5T240-320v-480q0-33 23.5-56.5T320-880h480q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H320ZM160-80q-33 0-56.5-23.5T80-160v-560h80v560h560v80H160Z" />
+                    </svg>
+
+                    <div class="deskripsi">
+                        <span>Prosedural.PDF</span>
+                        <div>
+                            <span>127.55 KB</span>
+                            <div>2 Days Ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="isi-file">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px"
+                        fill="#5f6368">
+                        <path
+                            d="M360-460h40v-80h40q17 0 28.5-11.5T480-580v-40q0-17-11.5-28.5T440-660h-80v200Zm40-120v-40h40v40h-40Zm120 120h80q17 0 28.5-11.5T640-500v-120q0-17-11.5-28.5T600-660h-80v200Zm40-40v-120h40v120h-40Zm120 40h40v-80h40v-40h-40v-40h40v-40h-80v200ZM320-240q-33 0-56.5-23.5T240-320v-480q0-33 23.5-56.5T320-880h480q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H320ZM160-80q-33 0-56.5-23.5T80-160v-560h80v560h560v80H160Z" />
+                    </svg>
+
+                    <div class="deskripsi">
+                        <span>Fungsi.PDF</span>
+                        <div>
+                            <span>129.12 KB</span>
+                            <div>2 Days Ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
