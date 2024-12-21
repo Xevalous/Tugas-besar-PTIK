@@ -1,0 +1,123 @@
+.container>div:not(.header) {
+    display: flex;
+    gap: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.storage {
+    width: 50%;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 8px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress-bar::after {
+    width: var(--value) !important;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background-color: forestgreen;
+    border-radius: 4px;
+    transition: width 0.3s ease-in-out;
+}
+
+.storage-usage>div:first-child {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+
+.storage-usage>div {
+    margin-top: 10px;
+}
+
+.isi-storage {
+    width: 100%;
+}
+
+.isi-storage>.pencarian {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.isi-storage>.pencarian>div:first-child {
+    width: 60%;
+}
+
+.isi-storage>.pencarian>div:first-child>form {
+    display: flex;
+    gap: 14px;
+}
+
+.isi-storage>.pencarian #tambah {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.isi-storage .isi-file {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.isi-storage .isi-file .deskripsi>div {
+    opacity: 80%;
+    font-size: small;
+}
+
+.personal {
+    font-weight: bolder;
+}
+
+.perguruan {
+    font-weight: bolder;
+}
+
+.google {
+    font-weight: bolder;
+}
+
+form input[name="cari"],
+form select[name="urutan"] {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: solid 1px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    box-shadow: 0 .5rem 1.5rem rgba(6, 1, 4, .06);
+}
+
+form select[name="urutan"] {
+    width: 50%;
+}
+
+.btn-green {
+    background-color: forestgreen;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 10px;
+    font-weight: 600;
+}
+
+.btn-green svg {
+    fill: white;
+}
