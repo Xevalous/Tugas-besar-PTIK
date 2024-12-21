@@ -74,6 +74,11 @@
     gap: 10px;
 }
 
+.task-list>ul>li a:has(.task-title) {
+    text-decoration: none;
+    color: black;
+}
+
 .task-list>ul>li .task-title {
     font-weight: 600;
 }
@@ -252,7 +257,6 @@
     left: 0;
     height: 100%;
     width: 0%;
-    /* Nilai default 0% */
     background-color: forestgreen;
     border-radius: 4px;
     transition: width 0.3s ease-in-out;
