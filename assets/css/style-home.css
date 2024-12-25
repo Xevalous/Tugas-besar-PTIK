@@ -102,14 +102,17 @@
     padding-top: 20px;
 }
 
-.class-list>.class-list-navigation-container div {
+.class-list>.class-list-navigation-container a {
     width: 100%;
     text-align: center;
     font-size: large;
     font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 
-.class-list>.class-list-navigation-container div>hr {
+.class-list>.class-list-navigation-container a>hr {
     margin-top: 13px;
     margin-left: 25px;
     margin-right: 25px;
@@ -117,11 +120,11 @@
     border-style: solid;
 }
 
-.class-list>.class-list-navigation-container div:has(hr) {
+.class-list>.class-list-navigation-container a:has(hr) {
     color: forestgreen;
 }
 
-.class-list>.class-list-navigation-container div:has(hr)>hr {
+.class-list>.class-list-navigation-container a:has(hr)>hr {
     border-color: forestgreen;
 }
 
@@ -153,6 +156,7 @@
     padding: 10px;
     color: forestgreen;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .class-list>div:not(.class-list-navigation-container) .sync-button svg {
