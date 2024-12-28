@@ -1,0 +1,68 @@
+.container>div {
+    width: 100%;
+    display: flex;
+    gap: 80px;
+}
+
+.container>div>div span {
+    opacity: 70%;
+}
+
+.container>div>div:first-child div:has(span) {
+    margin-bottom: 10px;
+}
+
+.container>div>div:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 20%;
+}
+
+.container>div>div:first-child div:has(> a) {
+    padding: 10px 20px;
+}
+
+.container>div>div:first-child div:has(> a)>a {
+    color: black;
+    text-decoration: none;
+}
+
+.container>div>div:first-child div:has(> a.active) {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.container>div>div:nth-child(2) {
+    width: 100%;
+}
+
+.container>div>div:nth-child(2) div:has(> span) {
+    margin-bottom: 10px;
+}
+
+.card {
+    text-align: center;
+}
+
+.card h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.card a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    background-color: #FFA500;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.card a svg {
+    fill: white;
+}
